@@ -43,53 +43,53 @@
           nixd = {
             enable = true;
           };
-          ts_ls = {
-            enable = true;
-            autostart = true;
-            filetypes = [
-              "javascript"
-              "javascriptreact"
-              "typescript"
-              "typescriptreact"
-            ];
-            extraOptions = {
-              settings = {
-                javascript = {
-                  inlayHints = {
-                    includeInlayEnumMemberValueHints = true;
-                    includeInlayFunctionLikeReturnTypeHints = true;
-                    includeInlayFunctionParameterTypeHints = true;
-                    includeInlayParameterNameHints = "all";
-                    includeInlayParameterNameHintsWhenArgumentMatchesName = true;
-                    includeInlayPropertyDeclarationTypeHints = true;
-                    includeInlayVariableTypeHints = true;
-                    includeInlayVariableTypeHintsWhenTypeMatchesName = true;
-                  };
-                };
-                typescript = {
-                  inlayHints = {
-                    includeInlayEnumMemberValueHints = true;
-                    includeInlayFunctionLikeReturnTypeHints = true;
-                    includeInlayFunctionParameterTypeHints = true;
-                    includeInlayParameterNameHints = "all";
-                    includeInlayParameterNameHintsWhenArgumentMatchesName = true;
-                    includeInlayPropertyDeclarationTypeHints = true;
-                    includeInlayVariableTypeHints = true;
-                    includeInlayVariableTypeHintsWhenTypeMatchesName = true;
-                  };
-                };
-              };
-            };
-          };
-          eslint = {
-            enable = true;
-          };
-          pyright = {
-            enable = true;
-          };
-          ruff = {
-            enable = true;
-          };
+          # ts_ls = {
+          #   enable = true;
+          #   autostart = true;
+          #   filetypes = [
+          #     "javascript"
+          #     "javascriptreact"
+          #     "typescript"
+          #     "typescriptreact"
+          #   ];
+          #   extraOptions = {
+          #     settings = {
+          #       javascript = {
+          #         inlayHints = {
+          #           includeInlayEnumMemberValueHints = true;
+          #           includeInlayFunctionLikeReturnTypeHints = true;
+          #           includeInlayFunctionParameterTypeHints = true;
+          #           includeInlayParameterNameHints = "all";
+          #           includeInlayParameterNameHintsWhenArgumentMatchesName = true;
+          #           includeInlayPropertyDeclarationTypeHints = true;
+          #           includeInlayVariableTypeHints = true;
+          #           includeInlayVariableTypeHintsWhenTypeMatchesName = true;
+          #         };
+          #       };
+          #       typescript = {
+          #         inlayHints = {
+          #           includeInlayEnumMemberValueHints = true;
+          #           includeInlayFunctionLikeReturnTypeHints = true;
+          #           includeInlayFunctionParameterTypeHints = true;
+          #           includeInlayParameterNameHints = "all";
+          #           includeInlayParameterNameHintsWhenArgumentMatchesName = true;
+          #           includeInlayPropertyDeclarationTypeHints = true;
+          #           includeInlayVariableTypeHints = true;
+          #           includeInlayVariableTypeHintsWhenTypeMatchesName = true;
+          #         };
+          #       };
+          #     };
+          #   };
+          # };
+          # eslint = {
+          #   enable = true;
+          # };
+          # pyright = {
+          #   enable = true;
+          # };
+          # ruff = {
+          #   enable = true;
+          # };
 
           rust_analyzer = {
             enable = true;
