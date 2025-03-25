@@ -8,6 +8,7 @@
     set.enable = lib.mkEnableOption "Enable set module";
   };
   config = lib.mkIf config.set.enable {
+    clipboard.providers.wl-copy.enable = true;
     opts = {
       # Enable relative line numbers
       number = true;
@@ -86,7 +87,7 @@
       # Place a column line
       colorcolumn = "80";
 
-      # Reduce which-key timeout 
+      # Reduce which-key timeout
       timeoutlen = 200;
 
       # Set encoding type
